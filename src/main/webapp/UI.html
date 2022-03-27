@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="StyleSheet"
+href="res/mc.css" type="text/css" title="cse4413" media="screen, print"/>
+<script type="text/javascript" src="scripts/mc.js">;</script>
+<meta charset="UTF-8">
+<title>Long Term Care Homes</title>
+<style>
+h1{
+	text-align:center;
+}
+
+</style>
+</head>
+<body>
+<h1>
+Long Term Care Homes
+</h1>
+
+<div style="text-align:center">
+<img src="front_img1.jpg" alt="Lassonde">
+</div>
+
+
+<fieldset>
+<legend>
+Register
+</legend>
+
+
+
+<form action="Register" method="POST" class="registerForm">
+ <label for="f_name"> First Name <BR /> <span id="f_name-error"></span></label>
+ <input type="text" id="f_name" name="f_name"></input> <BR />
+ <label for="l_name"> Last Name <BR /> <span id="l_name-error"></span></label>
+ <input type="text" id="l_name" name="l_name"></input> <BR />
+ <label for="gender"> gender <BR /> <span id="gender-error"></span></label>
+ <input type="text" id="gender" name="gender"></input> <BR />
+ <label for="phone_num"> Phone number <BR /> <span id="phone_num-error"></span></label>
+ <input type="number" id="phone_num" name="phone_num"></input> <BR />
+ <label for="ec_num"> Emergency_contact <BR /> <span id="ec_num-error"></span></label>
+ <input type="number" id="ec_num" name="ec_num"></input> <BR />
+ <label for="relation"> Relation with Emergency_contact <BR /> <span id="relation-error"></span></label>
+ <input type="text" id="relation" name="relation"></input> <BR />
+ <label for="age"> Age <BR /> <span id="age-error"></span></label>
+ <input type="number" id="age" name="age"></input> <BR />
+ <label for="url"> Individual Url* <BR /> <small>(this field is filled by staff)</small> <span id="url-error"></span></label> <BR />
+ <input type="text" id="url" name="url"></input> <BR />
+ <button type="submit" name="out" value="html">Submit</button>
+
+
+
+ </form>
+ </fieldset>
+ 
+ 
+  <div id="result" style="white-space: pre-wrap;"> </div>
+ <div style="text-align:center">
+<img src="Lassonde.png" alt="Lassonde" style="width:200px;height:150px;">
+<img src="YorkU.png" alt="YorkU" style="width:200px;height:150px;">
+
+</div>
+</body>
+</html>
